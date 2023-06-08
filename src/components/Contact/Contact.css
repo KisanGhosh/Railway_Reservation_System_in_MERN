@@ -1,0 +1,40 @@
+.contact-heading{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.contact tr{
+    padding: 30px;
+}
+.contact tr th{
+    color:midnightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.contact .table{
+    text-align: center;
+    padding: 20px;
+}
+.contact form{
+    margin-top: 35px;
+    height: 65vh;
+    width: 90%;
+    margin-left: 75px;
+    border-radius: 8px;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: rgba(0, 128, 255, 0.3) 0px 0px 0px 3px;
+}
+.contact form:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contact .btn{
+    margin-top: 60px;
+    margin-left: 650px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

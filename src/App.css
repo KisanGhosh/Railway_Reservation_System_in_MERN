@@ -1,0 +1,68 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #EEE;
+}
+.title .navbar{
+  background-color:white;
+  height: 100px;
+  width: 100%;
+}
+.navbar{
+  background-color:cornsilk;
+  height: 70px;
+  width: 100%;
+}
+.navbar .menu nav ul li{
+  display:inline-block;
+}
+.navbar .menu .nav{
+  color:black;
+  text-decoration: none;
+  margin-left:10px ;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 5px;
+  padding-top: 10px;
+}
+.navbar .menu .nav:hover{
+  background-color: rgb(249, 174, 174);
+  color: black;
+  border-radius: 7px;
+  transition: all 0.5s;
+}
+.title{
+  background-color:#fff;
+  height: 100px;
+  width: 100%;
+}
+.title .navbar-logo h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-size: 38px;
+  padding: 30px 10px 10px 25px;
+  margin-top: 0px;
+}
+.title .navbar-logo h1 span{
+  color:red;
+}
+.title .menu nav ul li{
+  display:contents;
+}
+.title .menu .nav{
+  color:red;
+  text-decoration: none;
+  margin-left:10px ;
+  margin-right: 10px;
+  font-size: 20px;
+  padding-top:10px;
+  padding-bottom: 5px;
+  float: right;
+
+}
+.title .menu .nav:hover{
+  background-color: rgb(249, 174, 174);
+  color: black;
+  border-radius: 7px;
+  transition: all 0.5s;
+}
